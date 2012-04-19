@@ -1,0 +1,23 @@
+body{
+ background: lightgrey;
+}
+header{
+
+}
+section{
+
+}
+footer{
+
+}
+[role=row]{
+	background: white;
+}
+[role=column]{
+	background: grey;
+}
+span {
+	display: block;
+	text-align: center;
+	margin: 1em;
+}

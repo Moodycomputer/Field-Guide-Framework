@@ -1,0 +1,81 @@
+header{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+section{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+footer{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+[role=row]{
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+[role=row]:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+[role=column]{
+	min-height: 1px;
+	float: left;
+	margin-right: 3.55%;
+}
+[role=column]:last-of-type{
+	float: left;
+	margin-right: 0%;
+}
+[width=one]{
+	width: 5.1%;
+}
+[width=two]{
+	width: 13.75%;
+}
+[width=three]{
+	width: 22.4%;
+}
+[width=four]{
+	width: 31%;
+}
+[width=five]{
+	width: 39.6%;
+}
+[width=six]{
+	width: 48.2%
+}
+[width=seven]{
+	width: 56.8%
+}
+[width=eight]{
+	width: 65.4%
+}
+[width=nine]{
+	width: 74%
+}
+[width=ten]{
+	width: 82.6%
+}
+[width=eleven]{
+	width: 91.25%
+}
+[width=twelve]{
+	width: 100%;
+}
+
+@media screen and (max-width: 640px){
+
+	[width=one], [width=two], [width=three], [width=four], [width=five], [width=six], 
+	[width=seven], [width=eight], [width=nine], [width=ten], [width=eleven], [width=twelve]{
+		width: 100%;
+		margin-right: 0px;
+	}
+}
+img, object, embed, video {
+max-width: 100%;
+}
